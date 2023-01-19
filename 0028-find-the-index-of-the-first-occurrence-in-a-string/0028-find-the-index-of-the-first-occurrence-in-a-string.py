@@ -6,7 +6,6 @@ class Solution(object):
         :rtype: int
         """
         if needle in haystack:
-            print(needle)
             i = haystack.index(needle)
             return i
         return -1
